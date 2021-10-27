@@ -54,8 +54,8 @@ const family = {
 function printFamily(fam) {
   console.log(fam.name);
   if (fam.children) {                              //!checking if there is CHILDRENS!
-    for (const child of fam.children) {           //! if there are , using loops to go thru the array of children
-      printFamily(child);                      // !apply the function with the CHILDS.
+    for (const child of fam.children) {           //! if there are , using loops to go through the array of children
+      printFamily(child);                      //!activate the function with the childrens..
     }
   }
 }
